@@ -1,0 +1,6 @@
+// It means variable and function declaration get at top cause call function before declarations alse
+console.log(hello());
+var hello = function helloworld(){
+    console.log("hello ji")
+}
+console.log(hello());
