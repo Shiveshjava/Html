@@ -26,3 +26,4 @@ function maggiKhana() {
 maggiLaana(maggiBanana); // Pehle maggi le aao 
 // maggiBanana is callback of maggiLaana(maggiBanana shuru krna hai jab
 // maggi ko le aaenge)
+this is example of callback in js
