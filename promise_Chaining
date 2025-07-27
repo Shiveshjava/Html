@@ -1,0 +1,18 @@
+let p = new Promise((res,rej)=>{
+    let flag =true;
+    setTimeout(()=>{
+    console.log("resolve ya reject call jo raha hai");
+    if(flag) res();
+    else rej();
+},2000);
+console.log("hiii")
+})
+p
+    .then(function fulfilledHandler(){
+        console.log("promise pura ho gaya");
+        })
+    .catch(function rejectedHandler(){
+        console.log("promise tut  gaya");
+    
+    })
+    console.log("hiii jii")
